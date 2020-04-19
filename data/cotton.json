@@ -1,7 +1,7 @@
 {
 	"materials": [
 		{
-			"name": "Virgin Cotton",
+			"name": "Virgin conventional Cotton",
 			"supplychain": [
 				{
 					"name": "Cotton fiber production",
