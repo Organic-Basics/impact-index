@@ -1,0 +1,61 @@
+{
+	"materials": [
+		{
+			"name": "Elastane",
+			"supplychain": [
+				{
+					"name": "Elastane production",
+					"type": "production",
+					"step": 1,
+					"impacts": [
+						{
+							"type": "water",
+							"size": 0.19,
+							"unit": "liters"
+						},
+						{
+							"type": "energy",
+							"size": 262.83,
+							"unit": "MJ"
+						},
+						{
+							"type": "emissions",
+							"size": 12.96,
+							"unit": "kg CO2"
+						}
+					]
+				}
+			],
+			"washings": null,
+			"addtional_impact": {
+				"impacts": [
+					{
+						"type": "water",
+						"size": 0,
+						"unit": "liters"
+					},
+					{
+						"type": "energy",
+						"size": 0,
+						"unit": "MJ"
+					},
+					{
+						"type": "chemicals",
+						"size": 0,
+						"unit": "g"
+					},
+					{
+						"type": "energy",
+						"size": 0,
+						"unit": "MJ"
+					},
+					{
+						"type": "emissions",
+						"size": 0,
+						"unit": "kg CO2"
+					}
+				]
+			}
+		}
+	]
+}

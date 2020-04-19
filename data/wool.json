@@ -1,0 +1,196 @@
+{
+	"materials": [
+		{
+			"name": "Virgin Wool",
+			"supplychain": [
+				{
+					"name": "Fiber production",
+					"type": "production",
+					"step": 1,
+					"impacts": [
+						{
+							"type": "water",
+							"size": 289.68,
+							"unit": "liters"
+						},
+						{
+							"type": "energy",
+							"size": 52.95,
+							"unit": "MJ"
+						},
+						{
+							"type": "emissions",
+							"size": 75.56,
+							"unit": "kg CO2"
+						}
+					]
+				},
+				{
+					"name": "Textile manufacturing",
+					"type": "manufacturing",
+					"step": 2,
+					"impacts": [
+						{
+							"type": "water",
+							"size": 137.22,
+							"unit": "liters"
+						},
+						{
+							"type": "energy",
+							"size": 408.59,
+							"unit": "MJ"
+						},
+						{
+							"type": "emissions",
+							"size": 39.77,
+							"unit": "kg CO2"
+						},
+						{
+							"type": "waste",
+							"size": 180,
+							"unit": "g"
+						}
+					]
+				},
+				{
+					"name": "Transportation",
+					"type": "transportation",
+					"step": 3,
+					"impacts": [
+						{
+							"type": "emissions",
+							"size": 2.48,
+							"unit": "kg CO2"
+						}
+					]
+				}
+			],
+			"washings": null,
+			"addtional_impact": {
+				"impacts": [
+					{
+						"type": "water",
+						"size": 0,
+						"unit": "liters"
+					},
+					{
+						"type": "energy",
+						"size": 0,
+						"unit": "MJ"
+					},
+					{
+						"type": "chemicals",
+						"size": 0,
+						"unit": "g"
+					},
+					{
+						"type": "energy",
+						"size": 0,
+						"unit": "MJ"
+					},
+					{
+						"type": "emissions",
+						"size": 0,
+						"unit": "kg CO2"
+					}
+				]
+			}
+		},
+		{
+			"name": "Recycled Wool",
+			"supplychain": [
+				{
+					"name": "Cotton fiber production",
+					"type": "production",
+					"step": 1,
+					"impacts": [
+						{
+							"type": "water",
+							"size": 0,
+							"unit": "liters"
+						},
+						{
+							"type": "energy",
+							"size": 0,
+							"unit": "MJ"
+						},
+						{
+							"type": "emissions",
+							"size": 0,
+							"unit": "kg CO2"
+						}
+					]
+				},
+				{
+					"name": "Textile manufacturing",
+					"type": "manufacturing",
+					"step": 2,
+					"impacts": [
+						{
+							"type": "water",
+							"size": 0,
+							"unit": "liters"
+						},
+						{
+							"type": "energy",
+							"size": 408.59,
+							"unit": "MJ"
+						},
+						{
+							"type": "emissions",
+							"size": 39.77,
+							"unit": "kg CO2"
+						},
+						{
+							"type": "waste",
+							"size": 0,
+							"unit": "g"
+						}
+					]
+				},
+				{
+					"name": "Transportation",
+					"type": "transportation",
+					"step": 3,
+					"impacts": [
+						{
+							"type": "emissions",
+							"size": 0.08,
+							"unit": "kg CO2"
+						}
+					]
+				}
+			],
+			"washings": null,
+			"addtional_impact": {
+				"impacts": [
+					{
+						"type": "water",
+						"size": 0,
+						"unit": "liters"
+					},
+					{
+						"type": "energy",
+						"size": 0,
+						"unit": "MJ"
+					},
+					{
+						"type": "chemicals",
+						"size": 0,
+						"unit": "g"
+					},
+					{
+						"type": "energy",
+						"size": 0,
+						"unit": "MJ"
+					},
+					{
+						"type": "emissions",
+						"size": 0,
+						"unit": "kg CO2"
+					}
+				]
+			}
+		}
+	]
+}

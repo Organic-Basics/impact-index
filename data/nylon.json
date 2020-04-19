@@ -1,0 +1,358 @@
+{
+	"materials": [
+		{
+			"name": "Virgin Nylon",
+			"supplychain": [
+				{
+					"name": "Fiber production",
+					"type": "production",
+					"step": 1,
+					"impacts": [
+						{
+							"type": "water",
+							"size": 720,
+							"unit": "liters"
+						},
+						{
+							"type": "energy",
+							"size": 136.64,
+							"unit": "MJ"
+						},
+						{
+							"type": "emissions",
+							"size": 9.96,
+							"unit": "kg CO2"
+						}
+					]
+				},
+				{
+					"name": "Textile manufacturing",
+					"type": "manufacturing",
+					"step": 2,
+					"impacts": [
+						{
+							"type": "water",
+							"size": 49,
+							"unit": "liters"
+						},
+						{
+							"type": "energy",
+							"size": 168.86,
+							"unit": "MJ"
+						},
+						{
+							"type": "emissions",
+							"size": 11.96,
+							"unit": "kg CO2"
+						},
+						{
+							"type": "waste",
+							"size": 180,
+							"unit": "g"
+						}
+					]
+				},
+				{
+					"name": "Transportation",
+					"type": "transportation",
+					"step": 3,
+					"impacts": [
+						{
+							"type": "emissions",
+							"size": 2.48,
+							"unit": "kg CO2"
+						}
+					]
+				},
+				{
+					"name": "Impact per washing",
+					"type": "washing",
+					"step": 4,
+					"impacts": [
+						{
+							"type": "water",
+							"size": 13.8472222222,
+							"unit": "liters"
+						},
+						{
+							"type": "energy",
+							"size": 13.8888888889,
+							"unit": "MJ"
+						},
+						{
+							"type": "emissions",
+							"size": 0.4097222222,
+							"unit": "kg CO2"
+						}
+					]
+				}
+			],
+			"washings": 72,
+			"addtional_impact": {
+				"impacts": [
+					{
+						"type": "water",
+						"size": 0,
+						"unit": "liters"
+					},
+					{
+						"type": "energy",
+						"size": 0,
+						"unit": "MJ"
+					},
+					{
+						"type": "chemicals",
+						"size": 0,
+						"unit": "g"
+					},
+					{
+						"type": "energy",
+						"size": 0,
+						"unit": "MJ"
+					},
+					{
+						"type": "emissions",
+						"size": 0,
+						"unit": "kg CO2"
+					}
+				]
+			}
+		},
+		{
+			"name": "Recycled Nylon",
+			"supplychain": [
+				{
+					"name": "Cotton fiber production",
+					"type": "production",
+					"step": 1,
+					"impacts": [
+						{
+							"type": "water",
+							"size": 72,
+							"unit": "liters"
+						},
+						{
+							"type": "energy",
+							"size": 1.04,
+							"unit": "MJ"
+						},
+						{
+							"type": "emissions",
+							"size": 1.76,
+							"unit": "kg CO2"
+						}
+					]
+				},
+				{
+					"name": "Textile manufacturing",
+					"type": "manufacturing",
+					"step": 2,
+					"impacts": [
+						{
+							"type": "water",
+							"size": 49.1,
+							"unit": "liters"
+						},
+						{
+							"type": "energy",
+							"size": 150.39,
+							"unit": "MJ"
+						},
+						{
+							"type": "emissions",
+							"size": 11.96,
+							"unit": "kg CO2"
+						},
+						{
+							"type": "waste",
+							"size": 0,
+							"unit": "g"
+						}
+					]
+				},
+				{
+					"name": "Transportation",
+					"type": "transportation",
+					"step": 3,
+					"impacts": [
+						{
+							"type": "emissions",
+							"size": 0.08,
+							"unit": "kg CO2"
+						}
+					]
+				},
+				{
+					"name": "Impact per washing",
+					"type": "washing",
+					"step": 4,
+					"impacts": [
+						{
+							"type": "water",
+							"size": 13.8472222222,
+							"unit": "liters"
+						},
+						{
+							"type": "energy",
+							"size": 13.8888888889,
+							"unit": "MJ"
+						},
+						{
+							"type": "emissions",
+							"size": 0.4097222222,
+							"unit": "kg CO2"
+						}
+					]
+				}
+			],
+			"washings": 72,
+			"addtional_impact": {
+				"impacts": [
+					{
+						"type": "water",
+						"size": 0,
+						"unit": "liters"
+					},
+					{
+						"type": "energy",
+						"size": 0,
+						"unit": "MJ"
+					},
+					{
+						"type": "chemicals",
+						"size": 0,
+						"unit": "g"
+					},
+					{
+						"type": "energy",
+						"size": 0,
+						"unit": "MJ"
+					},
+					{
+						"type": "emissions",
+						"size": 0,
+						"unit": "kg CO2"
+					}
+				]
+			}
+		},
+		{
+			"name": "Recycled Nylon treated with Polygiene",
+			"supplychain": [
+				{
+					"name": "Cotton fiber production",
+					"type": "production",
+					"step": 1,
+					"impacts": [
+						{
+							"type": "water",
+							"size": 72,
+							"unit": "liters"
+						},
+						{
+							"type": "energy",
+							"size": 1.04,
+							"unit": "MJ"
+						},
+						{
+							"type": "emissions",
+							"size": 1.76,
+							"unit": "kg CO2"
+						}
+					]
+				},
+				{
+					"name": "Textile manufacturing",
+					"type": "manufacturing",
+					"step": 2,
+					"impacts": [
+						{
+							"type": "water",
+							"size": 49.1,
+							"unit": "liters"
+						},
+						{
+							"type": "energy",
+							"size": 150.39,
+							"unit": "MJ"
+						},
+						{
+							"type": "emissions",
+							"size": 11.96,
+							"unit": "kg CO2"
+						},
+						{
+							"type": "waste",
+							"size": 0,
+							"unit": "g"
+						}
+					]
+				},
+				{
+					"name": "Transportation",
+					"type": "transportation",
+					"step": 3,
+					"impacts": [
+						{
+							"type": "emissions",
+							"size": 0.08,
+							"unit": "kg CO2"
+						}
+					]
+				},
+				{
+					"name": "Impact per washing",
+					"type": "washing",
+					"step": 4,
+					"impacts": [
+						{
+							"type": "water",
+							"size": 13.8472222222,
+							"unit": "liters"
+						},
+						{
+							"type": "energy",
+							"size": 13.8888888889,
+							"unit": "MJ"
+						},
+						{
+							"type": "emissions",
+							"size": 0.4097222222,
+							"unit": "kg CO2"
+						}
+					]
+				}
+			],
+			"washings": 36,
+			"addtional_impact": {
+				"impacts": [
+					{
+						"type": "water",
+						"size": 0,
+						"unit": "liters"
+					},
+					{
+						"type": "energy",
+						"size": 0,
+						"unit": "MJ"
+					},
+					{
+						"type": "chemicals",
+						"size": 0,
+						"unit": "g"
+					},
+					{
+						"type": "energy",
+						"size": 0,
+						"unit": "MJ"
+					},
+					{
+						"type": "emissions",
+						"size": 0,
+						"unit": "kg CO2"
+					}
+				]
+			}
+		}
+	]
+}
