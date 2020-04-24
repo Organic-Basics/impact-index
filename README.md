@@ -1,4 +1,4 @@
-[![Status](https://img.shields.io/badge/status-draft-yellow.svg)](https://github.com/Organic-Basics/impact-index)
+[![Status](https://img.shields.io/badge/status-published-green.svg)](https://github.com/Organic-Basics/impact-index)
 
 # Organic Basics Impact Index
 
