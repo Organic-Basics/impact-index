@@ -1,7 +1,7 @@
 {
 	"materials": [
 		{
-			"name": "Virgin conventional Cotton",
+			"name": "Conventional Cotton",
 			"supplychain": [
 				{
 					"name": "Cotton fiber production",
@@ -63,31 +63,8 @@
 							"unit": "kg CO2"
 						}
 					]
-				},
-				{
-					"name": "Impact per washing",
-					"type": "washing",
-					"step": 4,
-					"impacts": [
-						{
-							"type": "water",
-							"size": 13.8472222222,
-							"unit": "liters"
-						},
-						{
-							"type": "energy",
-							"size": 13.8888888889,
-							"unit": "MJ"
-						},
-						{
-							"type": "emissions",
-							"size": 0.4097222222,
-							"unit": "kg CO2"
-						}
-					]
 				}
 			],
-			"washings": 72,
 			"addtional_impact": {
 				"impacts": [
 					{
@@ -181,31 +158,8 @@
 							"unit": "kg CO2"
 						}
 					]
-				},
-				{
-					"name": "Impact per washing",
-					"type": "washing",
-					"step": 4,
-					"impacts": [
-						{
-							"type": "water",
-							"size": 13.8472222222,
-							"unit": "liters"
-						},
-						{
-							"type": "energy",
-							"size": 13.8888888889,
-							"unit": "MJ"
-						},
-						{
-							"type": "emissions",
-							"size": 0.4097222222,
-							"unit": "kg CO2"
-						}
-					]
 				}
 			],
-			"washings": 72,
 			"addtional_impact": {
 				"impacts": [
 					{
@@ -299,31 +253,8 @@
 							"unit": "kg CO2"
 						}
 					]
-				},
-				{
-					"name": "Impact per washing",
-					"type": "washing",
-					"step": 4,
-					"impacts": [
-						{
-							"type": "water",
-							"size": 13.8472222222,
-							"unit": "liters"
-						},
-						{
-							"type": "energy",
-							"size": 13.8888888889,
-							"unit": "MJ"
-						},
-						{
-							"type": "emissions",
-							"size": 0.4097222222,
-							"unit": "kg CO2"
-						}
-					]
 				}
 			],
-			"washings": 36,
 			"addtional_impact": {
 				"impacts": [
 					{

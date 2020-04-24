@@ -22,4 +22,4 @@ In its current state, the data is customized to fit Organic Basics' own supply c
 1. Refining the emissions calculations by following the GHG protocol
 2. Building the methodology into a tool that can be used to easily calculate the impact of other brand's products
 3. Adding other materials, such as hemp, to the data
-4. Finding a better way of calculating the impact related to the use of a product
+4. Finding a good way of calculating the impact related to the use phase of a product
